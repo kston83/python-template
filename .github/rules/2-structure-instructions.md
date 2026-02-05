@@ -1,0 +1,13 @@
+## Rules
+- Place all source code within either `src/` or `app/` directory based on project type.
+- Use `src/` for libraries, CLI tools, or general applications.
+- Use `app/` for web services (FastAPI, Django, Flask) following web framework conventions.
+- Organize code by feature or functionality, not by type.
+- For web projects: group routes, services, models, and schemas by feature.
+- For CLI projects: group related commands together.
+- For libraries: organize modules by functionality with clear public APIs.
+- Place shared utilities in `src/utils/` or `app/utils/`.
+- Define configuration in `src/config/` or `app/config/`.
+- Place tests in a `tests/` directory that mirrors your source structure.
+- Store high-level AI documentation (plans, PRDs, prompts) in the `ai/` directory at the project root [cite: python-template-ai/ai/prd.md, python-template-ai/ai/plan.md].
+- Store user-facing documentation in `docs/` directory.
