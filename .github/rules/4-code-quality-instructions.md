@@ -1,4 +1,3 @@
-```markdown
 ## Files
 src/**/*.py
 app/**/*.py
@@ -14,4 +13,4 @@ app/**/*.py
 - **DRY:** Don't repeat yourself. Extract common patterns into reusable functions or classes.
 - **SOLID:** Follow SOLID principles, especially Single Responsibility Principle.
 - **Error Messages:** Write clear, actionable error messages that help users understand what went wrong.
-```
+

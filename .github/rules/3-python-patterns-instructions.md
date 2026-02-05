@@ -1,4 +1,3 @@
-```markdown
 ## Files
 src/**/*.py
 app/**/*.py
@@ -15,4 +14,4 @@ app/**/*.py
 - **State Management:** For web apps, use dependency injection. Avoid global mutable state.
 - **Immutability:** Prefer immutable data structures. Use `frozen=True` for dataclasses when appropriate.
 - **Naming:** Use descriptive names. `snake_case` for functions/variables, `PascalCase` for classes.
-```
+
